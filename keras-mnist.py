@@ -34,64 +34,64 @@ if(errorC == False):
     labelframe.place(x=0, y=0, height=1150, width=650)
     labelframe1 = ttk.LabelFrame(labelframe, text="Random stade:")
     labelframe1.grid(sticky=W, row=3, column=1)
-    labelframe3 = ttk.LabelFrame(labelframe, text="Max pool size:")
-    labelframe3.grid(sticky=W, row=3, column=3)
-    labelframe6 = ttk.LabelFrame(labelframe, text="Optimizer learning rate:")
-    labelframe6.grid(sticky=W, row=2, column=3, padx=0, pady=10)
-    labelframe7 = ttk.LabelFrame(labelframe, text="Number of Epochs:")
-    labelframe7.grid(sticky=W, row=3, column=2)
-    labelframe8 = ttk.LabelFrame(labelframe, text="Batch Size:")
-    labelframe8.grid(sticky=W, row=2, column=1, padx=0, pady=10)
-    labelframe9 = ttk.LabelFrame(labelframe, text="Datagenerate range:")
-    labelframe9.grid(sticky=W, row=2, column=2, padx=0, pady=10)
-    labelframe11 = ttk.LabelFrame(
+    labelframe2 = ttk.LabelFrame(labelframe, text="Max pool size:")
+    labelframe2.grid(sticky=W, row=3, column=3)
+    labelframe3 = ttk.LabelFrame(labelframe, text="Optimizer learning rate:")
+    labelframe3.grid(sticky=W, row=2, column=3, padx=0, pady=10)
+    labelframe4 = ttk.LabelFrame(labelframe, text="Number of Epochs:")
+    labelframe4.grid(sticky=W, row=3, column=2)
+    labelframe5 = ttk.LabelFrame(labelframe, text="Batch Size:")
+    labelframe5.grid(sticky=W, row=2, column=1, padx=0, pady=10)
+    labelframe6 = ttk.LabelFrame(labelframe, text="Datagenerate range:")
+    labelframe6.grid(sticky=W, row=2, column=2, padx=0, pady=10)
+    labelframe7 = ttk.LabelFrame(
         labelframe, text="Convolution Layers Settings:", style="Red.TLabelframe")
-    labelframe11.place(x=0, y=150, height=250, width=450)
-    labelframe12 = ttk.LabelFrame(
+    labelframe7.place(x=0, y=150, height=250, width=450)
+    labelframe8 = ttk.LabelFrame(
         labelframe, text="Fully Connected Layers Settings:", style="Red.TLabelframe")
-    labelframe12.place(x=0, y=450, height=350, width=450)
+    labelframe8.place(x=0, y=450, height=350, width=450)
     label1 = ttk.Label(labelframe, text="v 1.1")
     label1.place(x=0, y=930)
     label2 = ttk.Label(labelframe, text="osmankocakank@gmail.com")
     label2.place(x=0, y=950)
-    labelframe13 = ttk.LabelFrame(labelframe12, text="FCL layer 1 Functions:")
-    labelframe13.grid(sticky=W, row=0, column=0, padx=0, pady=10)
-    labelframe14 = ttk.LabelFrame(labelframe12, text="FCL layer 2 Functions:")
-    labelframe14.grid(sticky=W, row=0, column=1, padx=0, pady=10)
-    labelframe15 = ttk.LabelFrame(labelframe12, text="FCL layer 3 Functions:")
-    labelframe15.grid(sticky=W, row=0, column=2, padx=0, pady=10)
-    labelframe16 = ttk.LabelFrame(labelframe12, text="FCL layer 1 Dense:")
-    labelframe16.grid(sticky=W, row=1, column=0, padx=0, pady=0)
-    labelframe17 = ttk.LabelFrame(labelframe12, text="FCL layer 2 Dense:")
-    labelframe17.grid(sticky=W, row=1, column=1, padx=0, pady=0)
-    labelframe18 = ttk.LabelFrame(labelframe12, text="FCL layer 3 Dense:")
-    labelframe18.grid(sticky=W, row=1, column=2, padx=0, pady=0)
-    labelframe19 = ttk.LabelFrame(labelframe12, text="FCL layer 1 Dropout:")
-    labelframe19.grid(sticky=W, row=2, column=0, padx=0, pady=0)
-    labelframe20 = ttk.LabelFrame(labelframe12, text="FCL layer 2 Dropout:")
-    labelframe20.grid(sticky=W, row=2, column=1, padx=0, pady=0)
-    labelframe21 = ttk.LabelFrame(labelframe12, text="FCL layer 3 Dropout:")
-    labelframe21.grid(sticky=W, row=2, column=2, padx=0, pady=0)
-    labelframe22 = ttk.LabelFrame(labelframe12, text="Output layer Functions:")
-    labelframe22.grid(sticky=W, row=3, column=0, padx=0, pady=0)
-    labelframe23 = ttk.LabelFrame(labelframe11, text="CNL layer 1 Functions:")
-    labelframe23.grid(sticky=W, row=0, column=0, padx=0, pady=10)
-    labelframe24 = ttk.LabelFrame(labelframe11, text="CNL layer 2 Functions:")
-    labelframe24.grid(sticky=W, row=0, column=1, padx=0, pady=10)
-    labelframe25 = ttk.LabelFrame(labelframe11, text="CNL layer 3 Functions:")
-    labelframe25.grid(sticky=W, row=0, column=2, padx=0, pady=10)
-    labelframe26 = ttk.LabelFrame(labelframe11, text="CNL layer 1 Filters:")
-    labelframe26.grid(sticky=W, row=1, column=0, padx=0, pady=0)
-    labelframe27 = ttk.LabelFrame(labelframe11, text="CNL layer 2 Filters:")
-    labelframe27.grid(sticky=W, row=1, column=1, padx=0, pady=0)
-    labelframe28 = ttk.LabelFrame(labelframe11, text="CNL layer 3 Filters:")
-    labelframe28.grid(sticky=W, row=1, column=2, padx=0, pady=0)
-    labelframe29 = ttk.LabelFrame(labelframe11, text="CNL layer 1 Dropout:")
-    labelframe29.grid(sticky=W, row=2, column=0, padx=0, pady=0)
-    labelframe30 = ttk.LabelFrame(labelframe11, text="CNL layer 2 Dropout:")
-    labelframe30.grid(sticky=W, row=2, column=1, padx=0, pady=0)
-    labelframe31 = ttk.LabelFrame(labelframe11, text="CNL layer 3 Dropout:")
-    labelframe31.grid(sticky=W, row=2, column=2, padx=0, pady=0)
+    labelframe9 = ttk.LabelFrame(labelframe8, text="FCL layer 1 Functions:")
+    labelframe9.grid(sticky=W, row=0, column=0, padx=0, pady=10)
+    labelframe10 = ttk.LabelFrame(labelframe8, text="FCL layer 2 Functions:")
+    labelframe10.grid(sticky=W, row=0, column=1, padx=0, pady=10)
+    labelframe11 = ttk.LabelFrame(labelframe8, text="FCL layer 3 Functions:")
+    labelframe11.grid(sticky=W, row=0, column=2, padx=0, pady=10)
+    labelframe12 = ttk.LabelFrame(labelframe8, text="FCL layer 1 Dense:")
+    labelframe12.grid(sticky=W, row=1, column=0, padx=0, pady=0)
+    labelframe13 = ttk.LabelFrame(labelframe8, text="FCL layer 2 Dense:")
+    labelframe13.grid(sticky=W, row=1, column=1, padx=0, pady=0)
+    labelframe14 = ttk.LabelFrame(labelframe8, text="FCL layer 3 Dense:")
+    labelframe14.grid(sticky=W, row=1, column=2, padx=0, pady=0)
+    labelframe15 = ttk.LabelFrame(labelframe8, text="FCL layer 1 Dropout:")
+    labelframe15.grid(sticky=W, row=2, column=0, padx=0, pady=0)
+    labelframe16 = ttk.LabelFrame(labelframe8, text="FCL layer 2 Dropout:")
+    labelframe16.grid(sticky=W, row=2, column=1, padx=0, pady=0)
+    labelframe17 = ttk.LabelFrame(labelframe8, text="FCL layer 3 Dropout:")
+    labelframe17.grid(sticky=W, row=2, column=2, padx=0, pady=0)
+    labelframe18 = ttk.LabelFrame(labelframe8, text="Output layer Functions:")
+    labelframe18.grid(sticky=W, row=3, column=0, padx=0, pady=0)
+    labelframe19 = ttk.LabelFrame(labelframe7, text="CNL layer 1 Functions:")
+    labelframe19.grid(sticky=W, row=0, column=0, padx=0, pady=10)
+    labelframe20 = ttk.LabelFrame(labelframe7, text="CNL layer 2 Functions:")
+    labelframe20.grid(sticky=W, row=0, column=1, padx=0, pady=10)
+    labelframe21 = ttk.LabelFrame(labelframe7, text="CNL layer 3 Functions:")
+    labelframe21.grid(sticky=W, row=0, column=2, padx=0, pady=10)
+    labelframe22 = ttk.LabelFrame(labelframe7, text="CNL layer 1 Filters:")
+    labelframe22.grid(sticky=W, row=1, column=0, padx=0, pady=0)
+    labelframe23 = ttk.LabelFrame(labelframe7, text="CNL layer 2 Filters:")
+    labelframe23.grid(sticky=W, row=1, column=1, padx=0, pady=0)
+    labelframe24 = ttk.LabelFrame(labelframe7, text="CNL layer 3 Filters:")
+    labelframe24.grid(sticky=W, row=1, column=2, padx=0, pady=0)
+    labelframe25 = ttk.LabelFrame(labelframe7, text="CNL layer 1 Dropout:")
+    labelframe25.grid(sticky=W, row=2, column=0, padx=0, pady=0)
+    labelframe26 = ttk.LabelFrame(labelframe7, text="CNL layer 2 Dropout:")
+    labelframe26.grid(sticky=W, row=2, column=1, padx=0, pady=0)
+    labelframe27 = ttk.LabelFrame(labelframe7, text="CNL layer 3 Dropout:")
+    labelframe27.grid(sticky=W, row=2, column=2, padx=0, pady=0)
 
     btntrain = ttk.Button(mainW, text="TRAIN", command=lambda: readData())
     btntrain.place(x=650, y=10, height=1070, width=100)
@@ -110,135 +110,135 @@ if(errorC == False):
     varsCmb1.current(0)
     varsCmb1['state'] = 'readonly'
 
+    varsCmb2 = ttk.Combobox(labelframe2)
+    varsCmb2.grid(sticky=W)
+    varsCmb2['values'] = ('2x2', '3x3')
+    varsCmb2.current(0)
+    varsCmb2['state'] = 'readonly'
+
     varsCmb3 = ttk.Combobox(labelframe3)
     varsCmb3.grid(sticky=W)
-    varsCmb3['values'] = ('2x2', '3x3')
+    varsCmb3['values'] = ('0.001', '0.01', '0.1', '0.002', '0.02', '0.2')
     varsCmb3.current(0)
     varsCmb3['state'] = 'readonly'
-
+    varsCmb4 = ttk.Combobox(labelframe4)
+    varsCmb4.grid(sticky=W)
+    varsCmb4['values'] = ('2', '5', '10', '15', '20', '30', '50')
+    varsCmb4.current(0)
+    varsCmb4['state'] = 'readonly'
+    varsCmb5 = ttk.Combobox(labelframe5)
+    varsCmb5.grid(sticky=W)
+    varsCmb5['values'] = ('32', '64', '128', '256')
+    varsCmb5.current(0)
+    varsCmb5['state'] = 'readonly'
     varsCmb6 = ttk.Combobox(labelframe6)
     varsCmb6.grid(sticky=W)
-    varsCmb6['values'] = ('0.001', '0.01', '0.1', '0.002', '0.02', '0.2')
+    varsCmb6['values'] = ('0.1', '0.2', '0.3', '0.4', '0.5', '0.6')
     varsCmb6.current(0)
     varsCmb6['state'] = 'readonly'
-    varsCmb7 = ttk.Combobox(labelframe7)
+
+    varsCmb7 = ttk.Combobox(labelframe19)
     varsCmb7.grid(sticky=W)
-    varsCmb7['values'] = ('2', '5', '10', '15', '20', '30', '50')
+    varsCmb7['values'] = ("relu", "softmax", "tanh", "sigmoid", "LeakyReLU")
     varsCmb7.current(0)
     varsCmb7['state'] = 'readonly'
-    varsCmb8 = ttk.Combobox(labelframe8)
-    varsCmb8.grid(sticky=W)
-    varsCmb8['values'] = ('32', '64', '128', '256')
-    varsCmb8.current(0)
-    varsCmb8['state'] = 'readonly'
-    varsCmb9 = ttk.Combobox(labelframe9)
-    varsCmb9.grid(sticky=W)
-    varsCmb9['values'] = ('0.1', '0.2', '0.3', '0.4', '0.5', '0.6')
-    varsCmb9.current(0)
-    varsCmb9['state'] = 'readonly'
 
-    varsCmb11 = ttk.Combobox(labelframe23)
-    varsCmb11.grid(sticky=W)
-    varsCmb11['values'] = ("relu", "softmax", "tanh", "sigmoid", "LeakyReLU")
-    varsCmb11.current(0)
-    varsCmb11['state'] = 'readonly'
-
-    varsCmb12 = ttk.Combobox(labelframe24)
-    varsCmb12.grid(sticky=W)
-    varsCmb12['values'] = ("disable layer", "relu", "softmax",
+    varsCmb14 = ttk.Combobox(labelframe20)
+    varsCmb14.grid(sticky=W)
+    varsCmb14['values'] = ("disable layer", "relu", "softmax",
                            "tanh", "sigmoid", "LeakyReLU")
 
+    varsCmb14.current(0)
+    varsCmb14['state'] = 'readonly'
+    varsCmb9 = ttk.Combobox(labelframe21)
+    varsCmb9.grid(sticky=W)
+    varsCmb9['values'] = ("disable layer", "relu", "softmax",
+                          "tanh", "sigmoid", "LeakyReLU")
+    varsCmb9.current(0)
+    varsCmb9['state'] = 'readonly'
+    varsCmb10 = ttk.Combobox(labelframe22)
+    varsCmb10.grid(sticky=W, row=1, column=0)
+    varsCmb10['values'] = ('8', '16', '32', '64', '128', '256', '512')
+    varsCmb10.current(0)
+    varsCmb10['state'] = 'readonly'
+    varsCmb11 = ttk.Combobox(labelframe23)
+    varsCmb11.grid(sticky=W, row=1, column=1)
+    varsCmb11['values'] = ('8', '16', '32', '64', '128', '256', '512')
+    varsCmb11.current(0)
+    varsCmb11['state'] = 'readonly'
+    varsCmb12 = ttk.Combobox(labelframe24)
+    varsCmb12.grid(sticky=W, row=1, column=2)
+    varsCmb12['values'] = ('8', '16', '32', '64', '128', '256', '512')
     varsCmb12.current(0)
     varsCmb12['state'] = 'readonly'
     varsCmb13 = ttk.Combobox(labelframe25)
-    varsCmb13.grid(sticky=W)
-    varsCmb13['values'] = ("disable layer", "relu", "softmax",
-                           "tanh", "sigmoid", "LeakyReLU")
+    varsCmb13.grid(sticky=W, row=2, column=0)
+    varsCmb13['values'] = ('0.0', '0.25', '0.50', '0.70')
     varsCmb13.current(0)
     varsCmb13['state'] = 'readonly'
     varsCmb14 = ttk.Combobox(labelframe26)
-    varsCmb14.grid(sticky=W, row=1, column=0)
-    varsCmb14['values'] = ('8', '16', '32', '64', '128', '256', '512')
+    varsCmb14.grid(sticky=W, row=2, column=1)
+    varsCmb14['values'] = ('0.0', '0.25', '0.50', '0.70')
     varsCmb14.current(0)
     varsCmb14['state'] = 'readonly'
     varsCmb15 = ttk.Combobox(labelframe27)
-    varsCmb15.grid(sticky=W, row=1, column=1)
-    varsCmb15['values'] = ('8', '16', '32', '64', '128', '256', '512')
+    varsCmb15.grid(sticky=W, row=2, column=2)
+    varsCmb15['values'] = ('0.0', '0.25', '0.50', '0.70')
     varsCmb15.current(0)
     varsCmb15['state'] = 'readonly'
-    varsCmb16 = ttk.Combobox(labelframe28)
-    varsCmb16.grid(sticky=W, row=1, column=2)
-    varsCmb16['values'] = ('8', '16', '32', '64', '128', '256', '512')
+    ####
+    varsCmb16 = ttk.Combobox(labelframe9)
+    varsCmb16['values'] = ("relu", "softmax", "tanh", "sigmoid", "LeakyReLU")
+    varsCmb16.grid(sticky=W)
     varsCmb16.current(0)
     varsCmb16['state'] = 'readonly'
-    varsCmb17 = ttk.Combobox(labelframe29)
-    varsCmb17.grid(sticky=W, row=2, column=0)
-    varsCmb17['values'] = ('0.0', '0.25', '0.50', '0.70')
+    varsCmb17 = ttk.Combobox(labelframe10)
+    varsCmb17.grid(sticky=W)
+    varsCmb17['values'] = ("disable layer", "relu", "softmax",
+                           "tanh", "sigmoid", "LeakyReLU")
     varsCmb17.current(0)
     varsCmb17['state'] = 'readonly'
-    varsCmb18 = ttk.Combobox(labelframe30)
-    varsCmb18.grid(sticky=W, row=2, column=1)
-    varsCmb18['values'] = ('0.0', '0.25', '0.50', '0.70')
+    varsCmb18 = ttk.Combobox(labelframe11)
+    varsCmb18.grid(sticky=W)
+    varsCmb18['values'] = ("disable layer", "relu", "softmax",
+                           "tanh", "sigmoid", "LeakyReLU")
     varsCmb18.current(0)
     varsCmb18['state'] = 'readonly'
-    varsCmb19 = ttk.Combobox(labelframe31)
-    varsCmb19.grid(sticky=W, row=2, column=2)
-    varsCmb19['values'] = ('0.0', '0.25', '0.50', '0.70')
+    varsCmb19 = ttk.Combobox(labelframe12)
+    varsCmb19.grid(sticky=W)
+    varsCmb19['values'] = ('8', '16', '32', '64', '128', '256', '512')
     varsCmb19.current(0)
     varsCmb19['state'] = 'readonly'
-    ####
     varsCmb20 = ttk.Combobox(labelframe13)
-    varsCmb20['values'] = ("relu", "softmax", "tanh", "sigmoid", "LeakyReLU")
     varsCmb20.grid(sticky=W)
+    varsCmb20['values'] = ('8', '16', '32', '64', '128', '256', '512')
     varsCmb20.current(0)
     varsCmb20['state'] = 'readonly'
     varsCmb21 = ttk.Combobox(labelframe14)
     varsCmb21.grid(sticky=W)
-    varsCmb21['values'] = ("disable layer", "relu", "softmax",
-                           "tanh", "sigmoid", "LeakyReLU")
+    varsCmb21['values'] = ('8', '16', '32', '64', '128', '256', '512')
     varsCmb21.current(0)
     varsCmb21['state'] = 'readonly'
     varsCmb22 = ttk.Combobox(labelframe15)
     varsCmb22.grid(sticky=W)
-    varsCmb22['values'] = ("disable layer", "relu", "softmax",
-                           "tanh", "sigmoid", "LeakyReLU")
+    varsCmb22['values'] = ('0.0', '0.25', '0.50', '0.70')
     varsCmb22.current(0)
     varsCmb22['state'] = 'readonly'
     varsCmb23 = ttk.Combobox(labelframe16)
     varsCmb23.grid(sticky=W)
-    varsCmb23['values'] = ('8', '16', '32', '64', '128', '256', '512')
+    varsCmb23['values'] = ('0.0', '0.25', '0.50', '0.70')
     varsCmb23.current(0)
     varsCmb23['state'] = 'readonly'
     varsCmb24 = ttk.Combobox(labelframe17)
     varsCmb24.grid(sticky=W)
-    varsCmb24['values'] = ('8', '16', '32', '64', '128', '256', '512')
+    varsCmb24['values'] = ('0.0', '0.25', '0.50', '0.70')
     varsCmb24.current(0)
     varsCmb24['state'] = 'readonly'
     varsCmb25 = ttk.Combobox(labelframe18)
     varsCmb25.grid(sticky=W)
-    varsCmb25['values'] = ('8', '16', '32', '64', '128', '256', '512')
+    varsCmb25['values'] = ("relu", "softmax", "tanh", "sigmoid", "LeakyReLU")
     varsCmb25.current(0)
     varsCmb25['state'] = 'readonly'
-    varsCmb26 = ttk.Combobox(labelframe19)
-    varsCmb26.grid(sticky=W)
-    varsCmb26['values'] = ('0.0', '0.25', '0.50', '0.70')
-    varsCmb26.current(0)
-    varsCmb26['state'] = 'readonly'
-    varsCmb27 = ttk.Combobox(labelframe20)
-    varsCmb27.grid(sticky=W)
-    varsCmb27['values'] = ('0.0', '0.25', '0.50', '0.70')
-    varsCmb27.current(0)
-    varsCmb27['state'] = 'readonly'
-    varsCmb28 = ttk.Combobox(labelframe21)
-    varsCmb28.grid(sticky=W)
-    varsCmb28['values'] = ('0.0', '0.25', '0.50', '0.70')
-    varsCmb28.current(0)
-    varsCmb28['state'] = 'readonly'
-    varsCmb29 = ttk.Combobox(labelframe22)
-    varsCmb29.grid(sticky=W)
-    varsCmb29['values'] = ("relu", "softmax", "tanh", "sigmoid", "LeakyReLU")
-    varsCmb29.current(0)
-    varsCmb29['state'] = 'readonly'
     ####
     v_random_state = int(varsCmb1.get())
 else:
@@ -254,65 +254,65 @@ else:
 
 def getHypervars(X_train, Y_train, X_test, Y_test, X_val, Y_val, orgX_Test, orgY_Test):
     # hyper param variables
-    v_filters_cnn_l1 = int(varsCmb14.get())
-    v_filters_cnn_l2 = int(varsCmb15.get())
-    v_filters_cnn_l3 = int(varsCmb16.get())
-    v_dense_l1 = int(varsCmb23.get())
-    v_dense_l2 = int(varsCmb24.get())
-    v_dense_l3 = int(varsCmb25.get())
-    v_dropouts_cnn_l1 = float(varsCmb17.get())
-    v_dropouts_cnn_l2 = float(varsCmb18.get())
-    v_dropouts_cnn_l3 = float(varsCmb19.get())
-    v_dropouts_dense_l1 = float(varsCmb26.get())
-    v_dropouts_dense_l2 = float(varsCmb27.get())
-    v_dropouts_dense_l3 = float(varsCmb28.get())
-    v_activation_functions_cnn_l1 = varsCmb11.get()
-    v_activation_functions_cnn_l2 = varsCmb12.get()
-    v_activation_functions_cnn_l3 = varsCmb13.get()
-    v_activation_functions_dense_l1 = varsCmb20.get()
-    v_activation_functions_dense_l2 = varsCmb21.get()
-    v_activation_functions_dense_l3 = varsCmb22.get()
-    v_activation_functions_output = varsCmb29.get()
-    v_optimizer_lr = float(varsCmb6.get())
-    v_epochs = int(varsCmb7.get())
-    v_batch_size = int(varsCmb8.get())
-    v_datagenerate_range = float(varsCmb9.get())
+    v_filters_cnn_l1 = int(varsCmb10.get())
+    v_filters_cnn_l2 = int(varsCmb11.get())
+    v_filters_cnn_l3 = int(varsCmb12.get())
+    v_dense_l1 = int(varsCmb19.get())
+    v_dense_l2 = int(varsCmb20.get())
+    v_dense_l3 = int(varsCmb21.get())
+    v_dropouts_cnn_l1 = float(varsCmb13.get())
+    v_dropouts_cnn_l2 = float(varsCmb14.get())
+    v_dropouts_cnn_l3 = float(varsCmb15.get())
+    v_dropouts_dense_l1 = float(varsCmb22.get())
+    v_dropouts_dense_l2 = float(varsCmb23.get())
+    v_dropouts_dense_l3 = float(varsCmb24.get())
+    v_activation_functions_cnn_l1 = varsCmb7.get()
+    v_activation_functions_cnn_l2 = varsCmb14.get()
+    v_activation_functions_cnn_l3 = varsCmb9.get()
+    v_activation_functions_dense_l1 = varsCmb16.get()
+    v_activation_functions_dense_l2 = varsCmb17.get()
+    v_activation_functions_dense_l3 = varsCmb18.get()
+    v_activation_functions_output = varsCmb25.get()
+    v_optimizer_lr = float(varsCmb3.get())
+    v_epochs = int(varsCmb4.get())
+    v_batch_size = int(varsCmb5.get())
+    v_datagenerate_range = float(varsCmb6.get())
     createModel(X_train, Y_train, X_test, Y_test, v_filters_cnn_l1, v_filters_cnn_l2, v_filters_cnn_l3, v_dense_l1, v_dense_l2, v_dense_l3, v_dropouts_cnn_l1, v_dropouts_cnn_l2, v_dropouts_cnn_l3, v_dropouts_dense_l1, v_dropouts_dense_l2, v_dropouts_dense_l3, v_activation_functions_cnn_l1, v_activation_functions_cnn_l2,
                 v_activation_functions_cnn_l3, v_activation_functions_dense_l1, v_activation_functions_dense_l2, v_activation_functions_dense_l3,
-                v_activation_functions_output, v_optimizer_lr, v_epochs, v_batch_size, v_datagenerate_range, X_val, Y_val, orgX_Test, orgY_Test)
+                v_activation_functions_output, v_optimizer_lr, v_epochs, v_batch_size, v_datagenerate_range, X_val, Y_val, orgX_Test)
 
 
 def setdefsettings():
-    varsCmb14.current(0)
-    varsCmb15.current(0)
-    varsCmb16.current(0)
-    varsCmb23.current(0)
-    varsCmb24.current(0)
-    varsCmb25.current(0)
-    varsCmb17.current(0)
-    varsCmb18.current(0)
-    varsCmb19.current(0)
-    varsCmb26.current(0)
-    varsCmb27.current(0)
-    varsCmb28.current(0)
+    varsCmb10.current(0)
     varsCmb11.current(0)
     varsCmb12.current(0)
-    varsCmb13.current(0)
+    varsCmb19.current(0)
     varsCmb20.current(0)
     varsCmb21.current(0)
+    varsCmb13.current(0)
+    varsCmb14.current(0)
+    varsCmb15.current(0)
     varsCmb22.current(0)
-    varsCmb29.current(0)
-    varsCmb6.current(0)
+    varsCmb23.current(0)
+    varsCmb24.current(0)
     varsCmb7.current(0)
-    varsCmb8.current(0)
+    varsCmb14.current(0)
     varsCmb9.current(0)
+    varsCmb16.current(0)
+    varsCmb17.current(0)
+    varsCmb18.current(0)
+    varsCmb25.current(0)
+    varsCmb3.current(0)
+    varsCmb4.current(0)
+    varsCmb5.current(0)
+    varsCmb6.current(0)
     mainW.update_idletasks()
 
 
 def maxPoolSize():
-    if(varsCmb3.get() == "2x2"):
+    if(varsCmb2.get() == "2x2"):
         v_Maxpoolsize_xy = 2
-    elif(varsCmb3.get() == "3x3"):
+    elif(varsCmb2.get() == "3x3"):
         v_Maxpoolsize_xy = 3
     else:
         pass
@@ -345,7 +345,6 @@ def readData():
     print("xtest laleli shape:", X_test.shape)
 
     orgX_Test = X_test
-    orgY_Test = Y_test
 
     Y_train = to_categorical(Y_train, num_classes=10)
     Y_test = to_categorical(Y_test, num_classes=10)
@@ -359,12 +358,12 @@ def readData():
     print("yval shape", Y_val.shape)
 
     getHypervars(X_train, Y_train, X_test, Y_test,
-                 X_val, Y_val, orgX_Test, orgY_Test)
+                 X_val, Y_val, orgX_Test)
 
 
 def createModel(X_train, Y_train, X_test, Y_test, v_filters_cnn_l1, v_filters_cnn_l2, v_filters_cnn_l3, v_dense_l1, v_dense_l2, v_dense_l3, v_dropouts_cnn_l1, v_dropouts_cnn_l2, v_dropouts_cnn_l3, v_dropouts_dense_l1, v_dropouts_dense_l2, v_dropouts_dense_l3, v_activation_functions_cnn_l1, v_activation_functions_cnn_l2,
                 v_activation_functions_cnn_l3, v_activation_functions_dense_l1, v_activation_functions_dense_l2, v_activation_functions_dense_l3,
-                v_activation_functions_output, v_optimizer_lr, v_epochs, v_batch_size, v_datagenerate_range, X_val, Y_val, orgX_Test, orgY_Test):
+                v_activation_functions_output, v_optimizer_lr, v_epochs, v_batch_size, v_datagenerate_range, X_val, Y_val, orgX_Test):
     model = Sequential()
 
     # /cnn_l1
@@ -374,7 +373,7 @@ def createModel(X_train, Y_train, X_test, Y_test, v_filters_cnn_l1, v_filters_cn
     model.add(Dropout(v_dropouts_cnn_l1))
     # cnn_l1/
     # /cnn_l2
-    if(varsCmb12.get() != "disable layer"):
+    if(varsCmb14.get() != "disable layer"):
         model.add(Conv2D(filters=v_filters_cnn_l2, kernel_size=(5, 5),
                          padding="Same", activation=v_activation_functions_cnn_l2))
         model.add(MaxPool2D(pool_size=(maxPoolSize(), maxPoolSize())))
@@ -383,7 +382,7 @@ def createModel(X_train, Y_train, X_test, Y_test, v_filters_cnn_l1, v_filters_cn
         pass
     # cnn_l2/
     # /cnn_l3
-    if(varsCmb13.get() != "disable layer"):
+    if(varsCmb9.get() != "disable layer"):
         model.add(Conv2D(filters=v_filters_cnn_l3, kernel_size=(5, 5),
                          padding="Same", activation=v_activation_functions_cnn_l3))
         model.add(MaxPool2D(pool_size=(maxPoolSize(), maxPoolSize())))
@@ -396,12 +395,12 @@ def createModel(X_train, Y_train, X_test, Y_test, v_filters_cnn_l1, v_filters_cn
 
     model.add(Dense(v_dense_l1, activation=v_activation_functions_dense_l1))
     model.add(Dropout(v_dropouts_dense_l1))
-    if(varsCmb21.get() != "disable layer"):
+    if(varsCmb17.get() != "disable layer"):
         model.add(Dense(v_dense_l2, activation=v_activation_functions_dense_l2))
         model.add(Dropout(v_dropouts_dense_l2))
     else:
         pass
-    if(varsCmb22.get() != "disable layer"):
+    if(varsCmb18.get() != "disable layer"):
         model.add(Dense(v_dense_l3, activation=v_activation_functions_dense_l3))
         model.add(Dropout(v_dropouts_dense_l3))
     else:
@@ -433,7 +432,7 @@ def createModel(X_train, Y_train, X_test, Y_test, v_filters_cnn_l1, v_filters_cn
     datagenerate.fit(X_train)
 
     trainFitModel(model, datagenerate, X_train, Y_train,
-                  batch_size, epochs, X_test, Y_test, X_val, Y_val, orgX_Test, orgY_Test)
+                  batch_size, epochs, X_test, Y_test, X_val, Y_val, orgX_Test)
 
 
 def pbar():
@@ -469,7 +468,7 @@ def callback():
     )
 
 
-def trainFitModel(model, datagenerate, X_train, Y_train, batch_size, epochs, X_test, Y_test, X_val, Y_val, orgX_Test, orgY_Test):
+def trainFitModel(model, datagenerate, X_train, Y_train, batch_size, epochs, X_test, Y_test, X_val, Y_val, orgX_Test):
     callback()
     global oran
     x = 100 / epochs
@@ -511,7 +510,6 @@ def confMatrix(model, X_val, Y_val):
 
 
 def imgshow(X_test, Y_test, model, orgX_Test):
-    incorrentlist = []
     predicted_classes = model.predict(orgX_Test[0:9])
     y_pred_cls = np.argmax(predicted_classes, axis=1)
     y_true_cls = np.argmax(Y_test[0:9], axis=1)
